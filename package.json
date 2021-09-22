@@ -1,0 +1,22 @@
+{
+  "name": "crudapi-mysql",
+  "description": "A RestAPI Mysql CRUD Operations with database caching build using NodeJS & Express & Mysql",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Ysn4Irix",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "node-cache": "^5.1.2"
+  }
+}
